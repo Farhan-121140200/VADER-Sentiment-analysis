@@ -1,12 +1,11 @@
-# 📌 Analisis Sentimen Komentar (CSV)
+#  Analisis Sentimen Komentar Menggunakan Metode VADER
 
-## 🔹 Apa yang Dilakukan Program Ini?
 Program ini adalah aplikasi berbasis GUI (antarmuka grafis) yang **menganalisis sentimen dari komentar dalam file CSV**.  
 Sentimen yang dianalisis bisa berupa **positif, negatif, atau netral**.
 
 ---
 
-## 🔹 Bagaimana Cara Kerjanya?
+## 🔹 Cara Kerja Program
 1. **Pengguna memilih file CSV** berisi komentar (dengan nama file bebas).
 2. **Program membaca isi file CSV**, menghapus data kosong, dan menerjemahkan komentar jika diperlukan.
 3. **Analisis sentimen dilakukan** menggunakan metode **VADER** untuk menentukan apakah komentar **positif, negatif, atau netral**.
@@ -15,23 +14,6 @@ Sentimen yang dianalisis bisa berupa **positif, negatif, atau netral**.
 
 ---
 
-## 🔹 Fitur Utama Program
-✅ **Mudah digunakan** → Tinggal pilih file CSV, klik "Proses Sentimen", dan hasilnya langsung tersedia.  
-✅ **GUI yang sederhana & modern** → Dibuat dengan **CustomTkinter** untuk tampilan yang lebih menarik.  
-✅ **Mencegah hasil tertimpa** → Jika `hasil_sentimen.csv` sudah ada, akan dibuat `hasil_sentimen_1.csv`, `hasil_sentimen_2.csv`, dst.  
-✅ **Dapat digunakan sebagai aplikasi standalone (`.exe`)** → Hasil tetap tersimpan di folder `main.exe`.  
-✅ **Progress bar** → Menampilkan progres saat data sedang diproses.  
-✅ **Dapat membaca file CSV dengan format & nama yang fleksibel**.
-
----
-
-## 🔹 Tampilan Aplikasi
-1️⃣ **Tombol untuk memilih file CSV**  
-2️⃣ **Tombol untuk memproses sentimen**  
-3️⃣ **Indikator progres bar saat proses berjalan**  
-4️⃣ **Hasil analisis ditampilkan di layar dan disimpan sebagai file CSV**
-
----
 
 ## 🔹 Struktur Kode Sederhana
 1. **Memuat pustaka yang diperlukan** (`pandas`, `customtkinter`, dll.).
