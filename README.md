@@ -12,6 +12,7 @@ Program membaca isi file CSV, menghapus data kosong, dan menerjemahkan komentar 
 Analisis sentimen dilakukan menggunakan metode VADER untuk menentukan apakah komentar positif, negatif, atau netral.
 Hasil analisis disimpan sebagai file CSV di lokasi yang sama dengan main.exe.
 Jika file hasil sebelumnya sudah ada, program akan membuat file baru tanpa menimpa file lama.
+
 🔹 Fitur Utama Program
 ✅ Mudah digunakan → Tinggal pilih file CSV, klik "Proses Sentimen", dan hasilnya langsung tersedia.
 ✅ GUI yang sederhana & modern → Dibuat dengan CustomTkinter untuk tampilan yang lebih menarik.
@@ -33,12 +34,14 @@ Membaca file CSV yang dipilih pengguna.
 Melakukan analisis sentimen dengan VADER.
 Menyimpan hasil di lokasi yang sama dengan main.exe.
 Menampilkan hasil di aplikasi dan memberitahu pengguna jika proses selesai.
+
 🔹 Bagaimana Cara Menggunakannya?
 Jalankan program (main.exe).
 Klik "Pilih File" dan cari file CSV yang berisi komentar.
 Klik "Proses Sentimen" untuk memulai analisis.
 Setelah selesai, program akan menyimpan hasil di folder yang sama dengan main.exe.
 Buka file hasil_sentimen.csv untuk melihat hasil analisis.
+
 🎯 Kesimpulan
 Program ini membantu menganalisis sentimen komentar dengan mudah dan menyimpan hasilnya tanpa tertimpa.
 Cocok untuk penelitian, analisis media sosial, atau proyek NLP sederhana! 🚀😊
