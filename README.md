@@ -25,13 +25,4 @@ Sentimen yang dianalisis bisa berupa **positif, negatif, atau netral**.
 
 ---
 
-## 🔹 Cara Menggunakan Program
-1. Buka folder dist
-1. **Jalankan program (`main.exe`)**.
-2. Klik **"Pilih File"** dan cari file CSV yang berisi komentar.
-3. Klik **"Proses Sentimen"** untuk memulai analisis.
-4. Setelah selesai, program akan menyimpan hasil di **folder yang sama dengan `main.exe`**.
-5. **Buka file `hasil_sentimen.csv`** untuk melihat hasil analisis.
-
----
 
