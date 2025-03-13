@@ -44,6 +44,7 @@ Sentimen yang dianalisis bisa berupa **positif, negatif, atau netral**.
 ---
 
 ## 🔹 Cara Menggunakan Program
+1. Buka folder dist
 1. **Jalankan program (`main.exe`)**.
 2. Klik **"Pilih File"** dan cari file CSV yang berisi komentar.
 3. Klik **"Proses Sentimen"** untuk memulai analisis.
@@ -52,6 +53,3 @@ Sentimen yang dianalisis bisa berupa **positif, negatif, atau netral**.
 
 ---
 
-### 🎯 **Kesimpulan**
-Program ini membantu **menganalisis sentimen komentar dengan mudah** dan **menyimpan hasilnya tanpa tertimpa**.  
-Cocok untuk **penelitian, analisis media sosial, atau proyek NLP sederhana**! 🚀😊
