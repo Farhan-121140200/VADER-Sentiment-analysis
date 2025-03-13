@@ -20,7 +20,7 @@ Sentimen yang dianalisis bisa berupa **positif, negatif, atau netral**.
 2. **Membuat antarmuka GUI** dengan tombol & label.
 3. **Membaca file CSV yang dipilih pengguna**.
 4. **Melakukan analisis sentimen dengan VADER**.
-5. **Menyimpan hasil di lokasi yang sama dengan `main.exe`**.
+5. **Menyimpan hasil di lokasi yang sama dengan source File CSV yang diinputkan**.
 6. **Menampilkan hasil di aplikasi** dan memberitahu pengguna jika proses selesai.
 
 ---
